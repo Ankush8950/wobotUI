@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto&display=swap');
+
+.cardContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 450px;
+    z-index: 999;
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardContainer .logo img{
+    width: 40px;
+    height: 40px;
+    color: #3766E8;
+    /* background-color:  #3766E8; */
+}
+
+.cardContainer .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo .logotext{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.para p{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px;
+}
+.from{
+    margin-top: 20px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 5px;
+    width: 250px;
+    height: 27px;
+    outline: none;
+}
+
+select{
+    width: 250px;
+    height: 27px;
+    margin-top: 5px;
+    outline: none;
+}
+
+button{
+    border: none;
+    margin: 3px;
+    padding: 5px;
+}
+
+.btn{
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+button:hover{
+    background-color: #3766E8;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_sumb{
+    margin-top: 10px;
+    background-color: #3766E8;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}

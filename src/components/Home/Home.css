@@ -1,0 +1,47 @@
+.homecontainer{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue;   */
+}
+
+.container .logo img{
+    padding: 2vw 2vw;
+}
+
+.homecontainer .rectangle{
+    position: absolute;
+    top: 30%;
+    left: -9%;
+    width: 115%;
+    height: 40%;
+    transform: rotate(-22deg);
+    /* transform-origin: 50% 0%; */
+    background-color:  #F0F0F0;
+}
+
+.leftreactangle{
+    width: 50%;
+    height: 15px;
+    background-color: #7294f0;
+}
+
+.rightreactange{
+    width: 50%;
+    height: 15px;
+    background-color: #7294f0;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.terms{
+    position: absolute;
+    bottom: 13px;
+    left: 45%;
+    
+}
+
+.terms h3{
+    font-size: 13px;
+    font-weight: 300;
+}
